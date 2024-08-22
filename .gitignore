@@ -1,0 +1,28 @@
+# Compiled source files
+*.dll
+*.exe
+*.so
+*.dylib
+*.pyc
+*.pyo
+*.pdb
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/

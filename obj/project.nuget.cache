@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m+8IqUbsEEJwpe535Yer4+aTMZUBHA7lLQR9jni1eQEooyvybkEPIyURhpHmwYuwsZbl/UNHMy77AVjc3qwOgQ==",
+  "dgSpecHash": "k+pLXHBzN9xf38OXHG3cfJa89vVnAEYYfq9hRWLNDzh8nWxn7ILJjIQjNfUGgRKFxQympV2dVQ1vuBpmzINTGg==",
   "success": true,
-  "projectFilePath": "C:\\B3Projetoworker\\GerenciamentoTarefasWorker\\GerenciamentoTarefasWorker.csproj",
+  "projectFilePath": "C:\\B3Projetoworker\\GerenciamentoTarefasWorker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Teste\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\Teste\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

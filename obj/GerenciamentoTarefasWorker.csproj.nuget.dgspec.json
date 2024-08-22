@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\B3Projetoworker\\GerenciamentoTarefasWorker\\GerenciamentoTarefasWorker.csproj": {}
+    "C:\\B3Projetoworker\\GerenciamentoTarefasWorker.csproj": {}
   },
   "projects": {
-    "C:\\B3Projetoworker\\GerenciamentoTarefasWorker\\GerenciamentoTarefasWorker.csproj": {
+    "C:\\B3Projetoworker\\GerenciamentoTarefasWorker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\B3Projetoworker\\GerenciamentoTarefasWorker\\GerenciamentoTarefasWorker.csproj",
+        "projectUniqueName": "C:\\B3Projetoworker\\GerenciamentoTarefasWorker.csproj",
         "projectName": "GerenciamentoTarefasWorker",
-        "projectPath": "C:\\B3Projetoworker\\GerenciamentoTarefasWorker\\GerenciamentoTarefasWorker.csproj",
+        "projectPath": "C:\\B3Projetoworker\\GerenciamentoTarefasWorker.csproj",
         "packagesPath": "C:\\Users\\Teste\\.nuget\\packages\\",
-        "outputPath": "C:\\B3Projetoworker\\GerenciamentoTarefasWorker\\obj\\",
+        "outputPath": "C:\\B3Projetoworker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
