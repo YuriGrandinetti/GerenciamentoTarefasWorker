@@ -1,10 +1,20 @@
-using GerenciamentoTarefasWorker;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
-IHost host = Host.CreateDefaultBuilder(args)
-    .ConfigureServices(services =>
+namespace GerenciamentoTarefasWorker
+{
+    public class Program
     {
-        services.AddHostedService<Worker>();
-    })
-    .Build();
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
 
-await host.RunAsync();
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureServices((hostContext, services) =>
+                {
+                    services.AddHostedService<Worker>();
+                });
+    }
+}
