@@ -46,3 +46,14 @@ C:\B3Projetoworker\obj\Debug\net6.0\GerenciamentoTarefasWorker.dll
 C:\B3Projetoworker\obj\Debug\net6.0\ref\GerenciamentoTarefasWorker.dll
 C:\B3Projetoworker\obj\Debug\net6.0\GerenciamentoTarefasWorker.pdb
 C:\B3Projetoworker\obj\Debug\net6.0\GerenciamentoTarefasWorker.genruntimeconfig.cache
+C:\B3Projetoworker\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\B3Projetoworker\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\B3Projetoworker\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\B3Projetoworker\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\B3Projetoworker\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\B3Projetoworker\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\B3Projetoworker\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\B3Projetoworker\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\B3Projetoworker\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\B3Projetoworker\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\B3Projetoworker\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll

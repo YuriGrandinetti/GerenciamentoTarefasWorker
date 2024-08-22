@@ -2,7 +2,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using System.Configuration;
 using System.Text;
+using Microsoft.Extensions.Configuration;
 
 namespace GerenciamentoTarefasWorker
 {
@@ -11,10 +13,12 @@ namespace GerenciamentoTarefasWorker
         private readonly ILogger<Worker> _logger;
         private IConnection _connection;
         private IModel _channel;
+        private readonly RabbitMQOptions _rabbitMQOptions;
 
-        public Worker(ILogger<Worker> logger)
+        public Worker(ILogger<Worker> logger, IConfiguration configuration)
         {
             _logger = logger;
+            _rabbitMQOptions = configuration.GetSection("RabbitMQ").Get<RabbitMQOptions>();
             InitRabbitMQ();
         }
 
@@ -22,10 +26,10 @@ namespace GerenciamentoTarefasWorker
         {
             var factory = new ConnectionFactory
             {
-                HostName = "localhost", // ou o endereço do seu servidor RabbitMQ
-                Port = 5672,
-                UserName = "guest", // substitua pelo usuário do RabbitMQ
-                Password = "guest"  // substitua pela senha do RabbitMQ
+                HostName = _rabbitMQOptions.HostName,
+                Port = _rabbitMQOptions.Port,
+                UserName = _rabbitMQOptions.UserName,
+                Password = _rabbitMQOptions.Password
             };
 
             _connection = factory.CreateConnection();
